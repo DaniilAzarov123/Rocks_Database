@@ -16,6 +16,17 @@ Contains metadata and derived data for the 480 images:
 - **`Rocks480_MDS8_solution.csv`** — The 8-dimensional MDS solution derived by Nosofsky et al. (2018). Each row corresponds to an image and contains its coordinates along 8 perceptual dimensions (`dim1`–`dim8`), reflecting the underlying similarity structure of the stimuli.
 - **`Rocks480_distinctiveness.csv`** — Item-level average distinctiveness ratings for all 480 images, collected by Meagher and Nosofsky (2023). Each row contains an image ID and its corresponding distinctiveness rating.
 
+## File Access
+
+Files can be accessed as:
+
+`https://raw.githubusercontent.com/DaniilAzarov123/Rocks_Database/main/<filename>.png`
+
+For example: 
+
+* Image: `https://raw.githubusercontent.com/DaniilAzarov123/Rocks_Database/main/Rocks480/I_Andesite_01.png` or
+* CSV file: `https://raw.githubusercontent.com/DaniilAzarov123/Rocks_Database/main/info/Rocks480_general.csv`
+
 ## References
 
 - Meagher, B. J., & Nosofsky, R. M. (2023). Testing formal cognitive models of classification and old-new recognition in a real-world high-dimensional category domain. *Cognitive Psychology*, *145*, 101596.
